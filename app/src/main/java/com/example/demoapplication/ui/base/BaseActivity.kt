@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.ViewDataBinding
+import com.example.demoapplication.BuildConfig
 
 abstract class BaseActivity<VB: ViewDataBinding> : AppCompatActivity() {
     private var _binding: ViewDataBinding? = null
